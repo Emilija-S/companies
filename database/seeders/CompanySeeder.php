@@ -19,5 +19,15 @@ class CompanySeeder extends Seeder
             'name' => Str::random(10),
             'address' => Str::random(20)
         ]);
+
+        Company::query()->create([
+            'name' => Str::random(10),
+            'address' => Str::random(20)
+        ]);
+
+        Company::query()->create([
+            'name' => Str::random(10),
+            'address' => Str::random(20)
+        ]);
     }
 }
